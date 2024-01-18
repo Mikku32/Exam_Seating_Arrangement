@@ -1,0 +1,69 @@
+/* styles.css */
+
+body {
+    background-color: #f0f0f0; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; /* Add padding for headings */
+}
+
+table {
+    width: 100%;
+    border: 4px solid black;
+    margin-top: 20px; /* Add margin at the top of the table */
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 8px; /* Add padding for table cells */
+}
+
+/* Additional styling for specific cells */
+td[style="background-color: black; color: aqua;"],
+td[style="background-color: black; color: aqua;"] h2 {
+    color: aqua;
+    font-weight: bold;
+}
+
+td[style="background-color: black; color: aqua;"] h2 {
+    margin: 0; /* Remove margin for h2 inside these cells */
+}
+
+/* Adjustments for small and small tags */
+small {
+    font-size: smaller;
+}
+
+/* Responsive styling for images */
+img {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Center the total row */
+tr:last-child {
+    text-align: center;
+}
+
+/* Style for hyperlinks */
+a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
