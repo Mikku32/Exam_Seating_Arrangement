@@ -5,7 +5,7 @@
 
 **Key Features:**
 - **Staff Portal:**
-  - Staff login to upload exam seating arrangement pictures.
+  - Staff login to upload exam seating arrangement.
   - Implemented file upload functionality for staff members to share seating plans securely.
 
 - **Student Portal:**
